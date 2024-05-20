@@ -24,19 +24,19 @@
     },
     "permissions": [
         "tabs",
-        "accessibilityFeatures.read",
-        "desktopCapture",
+        "accessibilityFeatures.read",  // accessibility accomidations
+        "desktopCapture",              // AeroShotCRE
         "storage",
-        "unlimitedStorage",
-        "clipboardRead",
+        "unlimitedStorage",            // prevent users from losing data
+        "clipboardRead",               // copy and paste
         "clipboardWrite",
         "loginState",
-        "offscreen",
-        "wallpaper",
-        "notifications"
+        "offscreen",                   // for playing notification sounds
+        "wallpaper",                   // some plugins may need it
+        "notifications"                // collab notifications, etc
     ],
     "host_permissions": [
-        "https://*/*",
+        "https://*/*",                 // access backend + save to Google Drive and DropBox
         "http://*/*"
     ]
 }
