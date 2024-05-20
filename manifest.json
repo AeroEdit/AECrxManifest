@@ -1,7 +1,7 @@
 {
     "name": "__MSG_extName__",
     "author": "themirrazz@gmail.com",
-    "description": __MSG_extDesc__",
+    "description": "__MSG_extDesc__",
     "version": "1.0",
     "minimum_chrome_version": "90",
     "default_locale": "en-US",
