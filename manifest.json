@@ -3,3 +3,4 @@
     "description": "THE video editor for crazy errors.",
     "version": "1.0",
     "minimum_chrome_version": "90",
+    "default_locale": "en-US",
